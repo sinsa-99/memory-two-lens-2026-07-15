@@ -74,7 +74,6 @@ strong{color:var(--ink)}
 .fig img{width:100%;display:block;aspect-ratio:1290/2100;object-fit:cover;object-position:top}
 .fig figcaption{padding:9px 12px;font-size:12.5px;color:var(--sub);line-height:1.5;border-top:1px solid var(--line)}
 .fig figcaption b{color:var(--ink)}
-.missing{border:1px dashed #3a4569;border-radius:12px;padding:16px;color:var(--dim);font-size:13.5px;background:rgba(255,255,255,.02)}
 .missing b{color:var(--sub)}
 
 /* cross analysis */
@@ -121,13 +120,13 @@ footer{margin-top:70px;padding-top:22px;border-top:1px solid var(--line);color:v
 
 <nav><div class="in">
   <a href="#snap">오늘 스냅샷</a>
+  <a href="#macro">매크로 노트</a>
   <a href="#vidA">1부 · 수급·청산</a>
   <a href="#vidB">2부 · 주도주 로테이션</a>
   <a href="#cross">종합 판단</a>
   <a href="#cal">관찰 캘린더</a>
   <a href="#verify">팩트체크</a>
   <a href="#gallery">차트 갤러리</a>
-  <a href="#request">추가 차트 요청</a>
 </div></nav>
 
 <div class="wrap">
@@ -142,7 +141,7 @@ footer{margin-top:70px;padding-top:22px;border-top:1px solid var(--line);color:v
   <div class="badges">
     <span class="badge a">1부 — 수급·청산 관점</span>
     <span class="badge b">2부 — 산업 사이클·로테이션 관점</span>
-    <span class="badge n">차트 18장 + 웹 조사 10건 (v2: 국내 차트 반영)</span>
+    <span class="badge n">차트 18장 · 팩트체크 11건 · 매크로 노트</span>
   </div>
 </header>
 
@@ -170,7 +169,30 @@ footer{margin-top:70px;padding-top:22px;border-top:1px solid var(--line);color:v
     <tr><td><b>SK하이닉스 ADR</b> (SKHY)</td><td class="num">$173.47</td><td class="num d">−10.55%</td><td class="num">—</td><td>7/14 +27% 다음 날 급반락. 시총 $1.26T — 마이크론($1.07T)보다 큼</td></tr>
     <tr><td><b>SOXL</b> (반도체 3배)</td><td class="num">$159.37</td><td class="num d">−9.79%</td><td class="num">−46.2%</td><td>고점 $296 → 레버리지 함정의 실물 사례</td></tr>
   </table></div>
-  <p class="note" style="margin-top:10px">코스피 3종은 7/15 마감 종가, ADR·SOXL은 7/15 장중(10~11시 ET). 핵심 변화: <b>본주 +5.7% × ADR −10.6% → 괴리율이 전일 약 50%에서 산술상 약 27% 수준으로 하루 만에 급축소</b>(환율·기준 시점에 따라 오차). 1부의 "파생 수급발 급등은 언제든 되돌린다"는 경고와, 바닥 조건 ①(괴리율 20% 미만)로의 급접근이 동시에 진행 중.</p>
+  <p class="note" style="margin-top:10px">코스피 3종은 7/15 마감 종가, ADR·SOXL은 7/15 장중(10~11시 ET). 핵심 변화: <b>본주 +5.7% × ADR −10.6% → 괴리율이 전일 49%에서 산술상 약 28% 수준으로 하루 만에 급축소</b>(환율·기준 시점에 따라 오차). 1부의 "파생 수급발 급등은 언제든 되돌린다"는 경고와, 바닥 조건 ①(괴리율 20% 미만)로의 급접근이 동시에 진행 중.</p>
+</section>
+
+<!-- ============ MACRO ============ -->
+<section id="macro">
+  <h2><span class="tag n">매크로</span> 매크로 노트 — CPI의 착시와 유가 리스크</h2>
+  <div class="chap">
+    <div class="thead"><h3>6월 CPI — 6년 만의 최대 하락, 그러나 조사 기간의 함정</h3></div>
+    <ul>
+      <li>6월 CPI 전월비 <span class="hl">−0.4%</span> — 6년 만에 가장 큰 하락, 예상치(−0.2%) 하회. 근원 CPI는 전월과 같은 수준(예상 +0.2%도 하회).</li>
+      <li>주역은 에너지: 6/17 미·이란 휴전으로 <b>휘발유 −9.7%</b> 등 에너지가 급락, 운송서비스·중고차도 하락. "에너지 급락 + 나머지 현상 유지"의 조합.</li>
+      <li>워시 연준의장은 경계 유지 — <span class="hl">"오늘 아침 데이터를 보고 '임무 완수, 다 잘 돌아간다'고 말하는 사람이 있을 수 있다. 그건 내 견해가 아니다."</span> 그래도 발표 직후 10년물 등 국채금리는 큰 폭 하락, 증시도 긍정 반응.</li>
+      <li><b>함정: 이 수치는 6월 조사분.</b> 7/8 이후 미국의 이란 타격 재개, 7/13 이란 항구 해상봉쇄 재개 발표로 브렌트유가 7/1 70달러 밑 → 7/14 <span class="hl">85달러 돌파 (2주 만에 +20%)</span>. 7월 CPI는 유가발 재반등 리스크를 안고 있다.</li>
+    </ul>
+  </div>
+  <div class="chap">
+    <div class="thead"><h3>호르무즈 "보호비" 소동 — 하루 만의 철회가 말해주는 것</h3></div>
+    <ul>
+      <li>트럼프의 "호르무즈해협 통과 화물에 화물가치의 20% 보호비" 발언이 유가 불안을 키웠으나, <b>발표 하루 만에 철회</b> — "중동 지도부와의 매우 생산적인 대화로, 20% 수수료를 걸프 국가들이 미국에 할 무역·투자 딜로 대체"(트루스소셜).</li>
+      <li>애초에 성립이 어려운 요율이었다: VLCC(초대형 유조선) 200만 배럴 × $80 = 화물가치 1.6억 달러의 20% = <span class="hl">3,200만 달러</span>. 이란 통행료는 배럴당 $1 = 200만 달러 — 미국이 <b>16배</b>를 더 받겠다는 계산이라, 화주는 이란에 내고 다니는 쪽을 택하게 된다.</li>
+      <li>트럼프는 이번 공습을 'military skirmish(소규모 충돌)'로 규정 — 제한 공습으로 압박해 유리한 협상 국면을 만들려는 의도로 읽힌다. 기본 시나리오는 확전보다 협상 복귀.</li>
+    </ul>
+    <div class="stance"><b>시사점</b> — 2부 민스키 체크 ②의 감시 변수(유가·10Y 금리)가 이미 움직이기 시작했다. CPI 호재로 낮아진 금리 인상 확률은 <b>유가 +20%가 7월 CPI에 반영되는 8월 중순</b>에 재시험대에 오른다. 반도체 랠리의 매크로 전제(금리 안정)는 아직 확정이 아니다.</div>
+  </div>
 </section>
 
 <!-- ============ VIDEO A ============ -->
@@ -211,19 +233,21 @@ footer{margin-top:70px;padding-top:22px;border-top:1px solid var(--line);color:v
     </ul>
     <div class="stance"><b>판단</b> — 청산당한 분들께 미안하지만 이건 시장이 건전해질 요소. 글로벌 IB도 "하반기 주가는 펀더멘털을 따라갈 가능성"으로 분석. 강제 청산 쏟아질 때가 "팔 사람 다 팔았다"는 바닥 신호인 경우가 많다. 단 자발적 디레버리징이 아니므로 건강한 신호라 단정은 못 함.</div>
     <div class="figs">
-      <figure class="fig" onclick="lb('charts/samsung_weekly.png')"><img src="charts/samsung_weekly.png" loading="lazy" alt="삼성전자 주봉">
-        <figcaption><b>삼성전자 주봉</b> — 고점 380,000원(6/19) 대비 현재 <b>−28.0%</b>(273,500원). "본주 −25%면 2배 레버리지 ETF는 −50%"라던 그 본주. 저점 95,700원(25/11)부터 +186% 랠리의 되돌림 국면.</figcaption></figure>
       <figure class="fig" onclick="lb('charts/soxl_daily.png')"><img src="charts/soxl_daily.png" loading="lazy" alt="SOXL 일봉">
         <figcaption><b>SOXL (반도체 3배 레버리지) 일봉</b> — 고점 $296 → $163(캡처 시점, 이후 −9.8%까지 확대) = <b>−46%</b>. 오르내리며 흘러내리는 장에서 음의 복리를 3배로 맞는 레버리지 함정의 실물 표본.</figcaption></figure>
+      <figure class="fig" onclick="lb('charts/samsung_weekly.png')"><img src="charts/samsung_weekly.png" loading="lazy" alt="삼성전자 주봉">
+        <figcaption><b>삼성전자 주봉</b> — 고점 380,000원(6/19) 대비 현재 <b>−28.0%</b>(273,500원). "본주 −25%면 2배 레버리지 ETF는 −50%"라던 그 본주. 저점 95,700원(25/11)부터 +186% 랠리의 되돌림 국면.</figcaption></figure>
     </div>
   </div>
 
   <div class="chap">
     <div class="thead"><h3>④ 그날 밤 미국 — ADR은 왜 27% 폭등했나</h3></div>
     <ul>
-      <li>7/14(월) 밤, <span class="hl">SK하이닉스 ADR +27% 폭등</span>. 한국에선 청산으로 털리고, 같은 주식이 미국에선 폭등하는 대조적 그림.</li>
+      <li>7/14(화) 밤, <span class="hl">SK하이닉스 ADR +27% 폭등</span>. 한국에선 청산으로 털리고, 같은 주식이 미국에선 폭등하는 대조적 그림.</li>
       <li>재료: 영국계 IB가 목표가를 <span class="hl">$330(약 2배 상향)</span> 제시 + ADR 기초 <b>옵션·레버리지 ETF 약 10개 신규 상장</b> → 기관 매수세 집중.</li>
-      <li>결과: ADR이 본주보다 <span class="hl">약 50% 비쌈</span>. 상장 때 괴리율 3% → 며칠 만에 50%.</li>
+      <li>$330의 근거는 수급 전망: <b>2027년 D램 공급 +20% vs 수요 +35%</b> — 공급부족이 2027년까지 이어진다는 계산.</li>
+      <li>ADR 시세 경로: 7/10(금) 상장 첫날 종가 $168.01 → 7/13(월) 본주 −15.4% 폭락에 동조한 <b>$152.35(−9.32%)</b> → 7/14(화) <b>$193.92(+27.29%)</b>.</li>
+      <li>결과: ADR이 본주보다 <span class="hl">49% 비쌈</span> — 7/14 종가 본주 1,941,000원 vs ADR $193.92. 상장 때 괴리율 3% → 두 거래일 만에 49%.</li>
     </ul>
     <div class="stance"><b>경고</b> — "ADR이 27% 올랐으니 본주도 무조건 따라간다"는 접근은 매우 위험. 이 급등은 <b>옵션+레버리지 파생 수급 때문이라는 게 거의 확실한 분석</b>이라 언제든 되돌릴 수 있다. 이미 보유자에겐 위안이 되겠지만 펀더멘털 재평가로 단정할 새 정보는 아직 없다.</div>
     <div class="figs">
@@ -232,21 +256,24 @@ footer{margin-top:70px;padding-top:22px;border-top:1px solid var(--line);color:v
       <figure class="fig" onclick="lb('charts/hynix_daily.png')"><img src="charts/hynix_daily.png" loading="lazy" alt="SK하이닉스 본주 일봉">
         <figcaption><b>SK하이닉스 본주 일봉</b> — 고점 3,002,000원(6/23) 대비 <b>−32.6%</b>. 7/14 투매 저점 뒤 7/15 +5.70% 반등 마감(2,022,000원). 4월 저점 984,000원에서 +105% 오른 뒤의 조정.</figcaption></figure>
     </div>
-    <div class="stance"><b>7/15 결과 업데이트</b> — 경고는 하루 만에 현실이 됐다. ADR −10.55% + 본주 +5.70% → <b>괴리율이 약 50%에서 산술상 약 27% 수준으로 급축소</b>(환율·기준 시점 오차 있음). 한편 차트 앱 요약 기준, +27% 급등 후 월가는 바이 레이팅을 개시했고 "다년 AI 확장 속 일시 조정이니 눌림목 매수" 시각(펀드스트랫)도 병존 — 수급 왜곡론과 재평가론이 맞붙는 자리.</div>
+    <div class="stance"><b>7/15 결과 업데이트</b> — 경고는 하루 만에 현실이 됐다. ADR −10.55% + 본주 +5.70% → <b>괴리율이 49%에서 산술상 약 28% 수준으로 급축소</b>(환율·기준 시점 오차 있음). 한편 차트 앱 요약 기준, +27% 급등 후 월가는 바이 레이팅을 개시했고 "다년 AI 확장 속 일시 조정이니 눌림목 매수" 시각(펀드스트랫)도 병존 — 수급 왜곡론과 재평가론이 맞붙는 자리.</div>
   </div>
 
   <div class="chap">
-    <div class="thead"><h3>⑤ 같은 회사인데 50% 괴리 — 차익거래를 막는 3대 장벽</h3></div>
+    <div class="thead"><h3>⑤ 같은 회사인데 49% 괴리 — 차익거래를 막는 5대 장벽</h3></div>
     <p>원래 괴리는 "싼 본주 매수 → 비싼 ADR로 전환 매도" 차익거래로 자연히 좁혀져야 한다. 그런데 지금은 그 통로가 막혀 있다:</p>
     <ul>
       <li><b>① 물리적 시차</b> — 본주↔ADR 전환 신청 자체가 <span class="hl">신주 국내 상장일인 7/29 이후</span>에나 가능. 지금은 두 가격을 잇는 통로가 아예 끊긴 상태.</li>
       <li><b>② 제도적 비대칭</b> — ADR→본주는 한도 없이 가능하지만, 괴리 축소에 필요한 방향인 <b>본주→ADR은 한도에 묶여 있음</b>.</li>
       <li><b>③ 기울어진 운동장</b> — 전환은 사실상 기관 전용. 개인은 MTS/HTS에서 전자적으로 차단돼 있고 절차도 복잡. 7월 말 이후에도 개인은 계속 소외되는 구조.</li>
+      <li><b>④ ADR 공매도도 어렵다</b> — 교과서적 수렴 거래(본주 매수 + ADR 공매도)를 하려 해도, ADR 발행량이 <span class="hl">본주의 2.5%</span>뿐인 데다 락업 물량이 많아 빌릴 유통주식 자체가 부족.</li>
+      <li><b>⑤ 환위험</b> — 서울은 원화·뉴욕은 달러 결제인데 개장 시간이 달라, 양쪽에 다리를 걸치는 순간 환율 변동에 노출.</li>
     </ul>
     <p>그 틈에 헤지펀드 <b>페어트레이드</b>: 미국에서 ADR 매수 + 서울에서 본주 공매도. 실제 대차잔고·공매도가 <span class="hl">2주 만에 30%+ 폭증</span> — 본주는 눌리고 ADR만 뛰는 구조가 완성됨.</p>
     <ul>
       <li>글로벌 IB 진단: 7/13의 −9% 급락엔 나쁜 실적 신호도 이익 전망 하향도 없었다 — <b>순전히 구조적 요인</b>. 그날 레버리지 ETF발 강제청산 물량이 <span class="hl">기관 순매도의 62%</span>.</li>
     </ul>
+    <div class="stance"><b>전망</b> — 이 다섯 장벽이 유지되는 동안 정교한 차익거래는 어렵고, <b>"다음날 서울 본주가 간밤 미장 ADR을 후행 추종"</b>하는 패턴이 이어질 공산이 크다. 7/15 본주 +5.70% 반등도 전날 밤 ADR +27%를 뒤따른 그 패턴의 연장.</div>
   </div>
 
   <div class="chap">
@@ -265,7 +292,7 @@ footer{margin-top:70px;padding-top:22px;border-top:1px solid var(--line);color:v
   <div class="chap">
     <div class="thead"><h3>⑦ 진짜 바닥의 조건 — 3가지 시그널 + 1</h3></div>
     <ul>
-      <li><b>① 괴리율 20% 미만</b> — ADR-본주 괴리가 이 밑으로 좁혀져야 외국인이 본주 공매도를 멈추고 숏커버링이 들어오며 정상 시장으로 복귀.<br><span class="note">→ 7/15 현황: 본주 +5.7% × ADR −10.6%로 하루 만에 ~50% → 약 27% 추정 — 조건 ①에 급접근 중.</span></li>
+      <li><b>① 괴리율 20% 미만</b> — ADR-본주 괴리가 이 밑으로 좁혀져야 외국인이 본주 공매도를 멈추고 숏커버링이 들어오며 정상 시장으로 복귀.<br><span class="note">→ 7/15 현황: 본주 +5.7% × ADR −10.6%로 하루 만에 49% → 약 28% 추정 — 조건 ①에 급접근 중.</span></li>
       <li><b>② 하루 반대매매 1,000억 원 미만</b> — 레버리지 빚투가 줄고 "팔 사람 다 팔았다"는 신호.</li>
       <li><b>③ 외국인 순매수 최소 1~2주 지속</b> — 하루 반짝이 아니라 개인 청산 물량을 외국인이 받아주는 그림.</li>
       <li><b>+ 글로벌 IB의 한 가지</b>: 개인 강제청산이 끝까지 진행돼 <span class="hl">"살 개미가 없어질 때"</span> — 개인의 항복이 곧 바닥. 해석하면, 그들은 아직 바닥이 멀었다고 보는 것.</li>
@@ -288,12 +315,11 @@ footer{margin-top:70px;padding-top:22px;border-top:1px solid var(--line);color:v
       <li>하이닉스 ADR 장중 내내 상승해 +27% 마감, 마이크론 +5%대, 반도체 대부분 강세. <b>서버 시장 강세</b> + 사이버보안 강세(IBM "고객이 보안에도 집중").</li>
     </ul>
     <div class="figs">
-      <figure class="fig" onclick="lb('charts/dell_weekly.png')"><img src="charts/dell_weekly.png" loading="lazy" alt="델 주봉">
-        <figcaption><b>델 (DELL) 주봉</b> — 서버 수혜 대표주. 4월 이후 수직 상승(+266% 구간)으로 "예산이 서버로 이동"을 주가가 선반영. 오늘은 −3.15% 쉼.</figcaption></figure>
       <figure class="fig" onclick="lb('charts/mu_daily.png')"><img src="charts/mu_daily.png" loading="lazy" alt="마이크론 일봉">
         <figcaption><b>마이크론 (MU) 일봉</b> — 전일 +5%대 반등 후 오늘 −3.68% 되돌림. 6월 고점 $1,229 대비 조정 중, 30일선($1,024) 아래.</figcaption></figure>
+      <figure class="fig" onclick="lb('charts/dell_weekly.png')"><img src="charts/dell_weekly.png" loading="lazy" alt="델 주봉">
+        <figcaption><b>델 (DELL) 주봉</b> — 서버 수혜 대표주. 4월 이후 수직 상승(+266% 구간)으로 "예산이 서버로 이동"을 주가가 선반영. 오늘은 −3.15% 쉼.</figcaption></figure>
     </div>
-    <div class="missing">📌 <b>IBM 일봉</b>이 있으면 "−25% 크래시가 반도체 랠리의 방아쇠"라는 이 문단이 완성된다 → <a href="#request">추가 차트 요청 #8</a></div>
   </div>
 
   <div class="chap">
@@ -347,12 +373,11 @@ footer{margin-top:70px;padding-top:22px;border-top:1px solid var(--line);color:v
       <li>단점: 사이클이 있어 장기 보유보단 <b>스윙 타이밍 매매 영역</b>. 산업 이해가 필요한 난이도 있는 섹터 — 주도주가 되기엔 모멘텀 기간이 짧을 가능성.</li>
     </ul>
     <div class="figs">
-      <figure class="fig" onclick="lb('charts/ter_weekly.png')"><img src="charts/ter_weekly.png" loading="lazy" alt="테라다인 주봉">
-        <figcaption><b>테라다인 (TER) 주봉</b> — 반도체 검사장비(ATE) 대표. HBM 적층 검사 수요 그 자리. 1년간 +346% 상승 후 고점권 조정 — 스윙 매매 영역답게 등락이 크다.</figcaption></figure>
       <figure class="fig" onclick="lb('charts/ter_daily.png')"><img src="charts/ter_daily.png" loading="lazy" alt="테라다인 일봉">
         <figcaption><b>테라다인 (TER) 일봉</b> — 6월 고점 $480 대비 −28%, 30일선 아래. <b>7/28 실적 발표</b>: EPS $2.04 예상(+257.9% YoY, AI 검사장비 수요) — 장비 사이클 검증 이벤트.</figcaption></figure>
+      <figure class="fig" onclick="lb('charts/ter_weekly.png')"><img src="charts/ter_weekly.png" loading="lazy" alt="테라다인 주봉">
+        <figcaption><b>테라다인 (TER) 주봉</b> — 반도체 검사장비(ATE) 대표. HBM 적층 검사 수요 그 자리. 1년간 +346% 상승 후 고점권 조정 — 스윙 매매 영역답게 등락이 크다.</figcaption></figure>
     </div>
-    <div class="missing">📌 <b>AVGO·MRVL·LRCX</b> 차트가 있으면 후보①②의 조정폭을 메모리(MU·SNDK)와 직접 비교 가능 → <a href="#request">추가 차트 요청 #6·#9·#11</a></div>
   </div>
 
   <div class="chap">
@@ -378,12 +403,11 @@ footer{margin-top:70px;padding-top:22px;border-top:1px solid var(--line);color:v
       <li><b>인텔</b>: 턴어라운드 기대 후보. 내부 스토리 괜찮고(우주용 칩 등 이전과 다른 모습) 미국이 가장 필요로 하는 제조 담당이라 국가적 지원 — 단 <b>실적 증명 단계가 남음</b>. 커스텀칩 시장 확대 시 파운드리 플러스알파 수혜(삼성도 동일).</li>
     </ul>
     <div class="figs">
-      <figure class="fig" onclick="lb('charts/amd_weekly.png')"><img src="charts/amd_weekly.png" loading="lazy" alt="AMD 주봉">
-        <figcaption><b>AMD 주봉</b> — 5월 말부터 수직 상승(+244% 구간), 최고가 $573 부근에서 <b>고점 유지</b>. 메모리가 −20~30% 조정받는 동안 AMD는 사실상 횡보 — "조정폭 최소" 주장이 차트로 확인된다.</figcaption></figure>
       <figure class="fig" onclick="lb('charts/amd_daily.png')"><img src="charts/amd_daily.png" loading="lazy" alt="AMD 일봉">
         <figcaption><b>AMD 일봉</b> — 30일선($524) 위 안착, 오늘도 −1.07%로 스냅샷 6종목 중 가장 얕은 조정. 월가 목표가 $640~725 제시, <b>8/4 실적 발표</b>.</figcaption></figure>
+      <figure class="fig" onclick="lb('charts/amd_weekly.png')"><img src="charts/amd_weekly.png" loading="lazy" alt="AMD 주봉">
+        <figcaption><b>AMD 주봉</b> — 5월 말부터 수직 상승(+244% 구간), 최고가 $573 부근에서 <b>고점 유지</b>. 메모리가 −20~30% 조정받는 동안 AMD는 사실상 횡보 — "조정폭 최소" 주장이 차트로 확인된다.</figcaption></figure>
     </div>
-    <div class="missing">📌 <b>NVDA·INTC</b> 차트가 있으면 근본 칩 3사의 상대 강도 비교 완성 → <a href="#request">추가 차트 요청 #7·#10</a></div>
   </div>
 
   <div class="chap">
@@ -443,11 +467,11 @@ footer{margin-top:70px;padding-top:22px;border-top:1px solid var(--line);color:v
   <h2><span class="tag n">일정</span> 관찰 캘린더 — 두 분석의 트리거를 한 줄에</h2>
   <div class="cal">
     <div class="row"><span class="dt">7/16 (목)</span><span class="ev"><b>TSMC 2분기 실적</b> — 2부: "반도체 전체 기대치를 한 번 더 올릴 관건". 27년 공급 전망·CoWoS 증설 속도·가이던스 체크. <span class="note">(대만 기준, 발표일 확인 요)</span></span></div>
-    <div class="row"><span class="dt">매일</span><span class="ev"><b>ADR-본주 괴리율 / 반대매매 금액 / 외국인 순매수</b> — 1부의 바닥 3조건. 괴리 7/14 ~50% → 7/15 약 27% 추정(급축소 중), 반대매매 1,422억(7/9) → 각각 20%·1,000억 밑으로 내려오는지.</span></div>
+    <div class="row"><span class="dt">매일</span><span class="ev"><b>ADR-본주 괴리율 / 반대매매 금액 / 외국인 순매수</b> — 1부의 바닥 3조건. 괴리 7/14 49% → 7/15 약 28% 추정(급축소 중), 반대매매 1,422억(7/9) → 각각 20%·1,000억 밑으로 내려오는지.</span></div>
     <div class="row"><span class="dt">7/28 (화)</span><span class="ev"><b>테라다인 실적</b> — EPS $2.04 예상(+257.9% YoY). 패키징·검사장비 사이클(후보②)의 검증 이벤트.</span></div>
     <div class="row"><span class="dt">7/29 (수)</span><span class="ev"><b>SK하이닉스 신주 국내 상장 = 본주↔ADR 상호전환 개시</b> — 괴리율 축소 메커니즘이 처음 열리는 날. 기관 차익거래(본주 매수→ADR 전환) 유입 여부가 본주 수급의 분수령.</span></div>
     <div class="row"><span class="dt">8/4 (화)</span><span class="ev"><b>AMD 2분기 실적</b> — 목표가 $640(골드만)·$725(키뱅크) 눈높이 대비 확인. "조정폭 최소" 주도주 후보의 시험대.</span></div>
-    <div class="row"><span class="dt">8월 중순</span><span class="ev"><b>7월 CPI</b> — 칩플레이션(컴퓨터 세부 +17%) 지속 여부 + 유가·10Y 금리. 민스키 체크 ②의 감시 변수.</span></div>
+    <div class="row"><span class="dt">8월 중순</span><span class="ev"><b>7월 CPI</b> — 칩플레이션(컴퓨터 세부 +17%) 지속 여부 + 유가·10Y 금리. 브렌트가 7/1 70달러 밑 → 7/14 85달러+(2주 +20%)로 이미 반등 — 7월 CPI 재상승 리스크가 민스키 체크 ②의 1순위 감시 변수.</span></div>
   </div>
 </section>
 
@@ -461,6 +485,7 @@ footer{margin-top:70px;padding-top:22px;border-top:1px solid var(--line);color:v
     <tr><td>본주→ADR 전환은 한도 제한 (제도 비대칭)</td><td class="vok">✅</td><td>"ADS 표시 보통주 총수가 특정 최대치를 넘으면 회사 사전 동의 필요" — 실무상 기발행 물량 범위 내에서만 전환 <span class="src">(연합뉴스 7/10)</span></td></tr>
     <tr><td>기관의 "ADR 매수 + 본주 공매도" 페어트레이드</td><td class="vok">✅</td><td>UBS 7/7 고객노트: "첫날부터 예탁증서를 매수하고 한국 라인을 공매도하는 것은 너무나 당연한 선택" <span class="src">(연합뉴스 7/10)</span></td></tr>
     <tr><td>상장 시 괴리율 약 3%에서 출발</td><td class="vok">✅</td><td>ADR 공모가가 본주보다 약 3% 높게 시작 — 이른바 '역(逆)김치 프리미엄' <span class="src">(연합뉴스 7/10)</span></td></tr>
+    <tr><td>ADR-본주 괴리 "약 50%"</td><td class="vok">✅<span class="note"> 정밀</span></td><td>7/14 종가 대조 시 <b>정확히 49%</b> — 본주 1,941,000원 vs ADR $193.92(+27.29%). 경로: 7/10 $168.01 → 7/13 $152.35(−9.32%) → 7/14 $193.92 <span class="src">(종가 시세 대조)</span></td></tr>
     <tr><td>IBM, 1968년 이래 최악의 하루 (−25%)</td><td class="vok">✅</td><td>7/14 −25% 크래시. 2분기 매출 $17.2B로 예상 $700M 하회. CEO: "고객 예산이 소프트웨어에서 하드웨어(메모리 선구매)로 이동" <span class="src">(CNBC 7/14 · TradingKey 7/15)</span></td></tr>
     <tr><td>7/13 반도체 폭락은 구조적 요인</td><td class="vok">✅</td><td>7/13 SK하이닉스 −15.37%, 삼성전자 −10.70% — 시총 1·2위 동반 급락 <span class="src">(한국경제 7/14)</span></td></tr>
     <tr><td>바닥 조건: 하루 반대매매 1,000억 미만</td><td class="vok">✅<span class="note"> 현황</span></td><td>7/9 반대매매 <b>1,422억 원</b>까지 폭증 — 아직 조건 위. 신용융자 잔고는 6거래일 연속 감소, 3개월來 최저 = 디레버리징 진행 중 <span class="src">(뉴데일리 7/13 · 연합뉴스 7/14)</span></td></tr>
@@ -475,55 +500,26 @@ footer{margin-top:70px;padding-top:22px;border-top:1px solid var(--line);color:v
   <h2><span class="tag n">차트</span> 차트 갤러리 — 10장 전체 <span class="note" style="font-weight:400">(탭하면 확대)</span></h2>
   <div class="gal">
     <figure class="fig" onclick="lb('charts/ixic_daily.png')"><img src="charts/ixic_daily.png" loading="lazy" alt=""><figcaption><b>나스닥 종합</b> · 일봉 · +0.58%</figcaption></figure>
-    <figure class="fig" onclick="lb('charts/mu_weekly.png')"><img src="charts/mu_weekly.png" loading="lazy" alt=""><figcaption><b>마이크론</b> · 주봉 · 시총 $1.07T</figcaption></figure>
     <figure class="fig" onclick="lb('charts/mu_daily.png')"><img src="charts/mu_daily.png" loading="lazy" alt=""><figcaption><b>마이크론</b> · 일봉 · −3.68%</figcaption></figure>
-    <figure class="fig" onclick="lb('charts/sndk_weekly.png')"><img src="charts/sndk_weekly.png" loading="lazy" alt=""><figcaption><b>샌디스크</b> · 주봉 · +806% 랠리</figcaption></figure>
+    <figure class="fig" onclick="lb('charts/mu_weekly.png')"><img src="charts/mu_weekly.png" loading="lazy" alt=""><figcaption><b>마이크론</b> · 주봉 · 시총 $1.07T</figcaption></figure>
     <figure class="fig" onclick="lb('charts/sndk_daily.png')"><img src="charts/sndk_daily.png" loading="lazy" alt=""><figcaption><b>샌디스크</b> · 일봉 · −7.51%</figcaption></figure>
-    <figure class="fig" onclick="lb('charts/amd_weekly.png')"><img src="charts/amd_weekly.png" loading="lazy" alt=""><figcaption><b>AMD</b> · 주봉 · 고점 유지</figcaption></figure>
+    <figure class="fig" onclick="lb('charts/sndk_weekly.png')"><img src="charts/sndk_weekly.png" loading="lazy" alt=""><figcaption><b>샌디스크</b> · 주봉 · +806% 랠리</figcaption></figure>
     <figure class="fig" onclick="lb('charts/amd_daily.png')"><img src="charts/amd_daily.png" loading="lazy" alt=""><figcaption><b>AMD</b> · 일봉 · −1.07%</figcaption></figure>
-    <figure class="fig" onclick="lb('charts/ter_weekly.png')"><img src="charts/ter_weekly.png" loading="lazy" alt=""><figcaption><b>테라다인</b> · 주봉 · +346% 후 조정</figcaption></figure>
+    <figure class="fig" onclick="lb('charts/amd_weekly.png')"><img src="charts/amd_weekly.png" loading="lazy" alt=""><figcaption><b>AMD</b> · 주봉 · 고점 유지</figcaption></figure>
     <figure class="fig" onclick="lb('charts/ter_daily.png')"><img src="charts/ter_daily.png" loading="lazy" alt=""><figcaption><b>테라다인</b> · 일봉 · 7/28 실적</figcaption></figure>
+    <figure class="fig" onclick="lb('charts/ter_weekly.png')"><img src="charts/ter_weekly.png" loading="lazy" alt=""><figcaption><b>테라다인</b> · 주봉 · +346% 후 조정</figcaption></figure>
     <figure class="fig" onclick="lb('charts/dell_weekly.png')"><img src="charts/dell_weekly.png" loading="lazy" alt=""><figcaption><b>델</b> · 주봉 · 서버 수혜</figcaption></figure>
     <figure class="fig" onclick="lb('charts/kospi_daily.png')"><img src="charts/kospi_daily.png" loading="lazy" alt=""><figcaption><b>코스피</b> · 일봉 · 7/15 +6.24%</figcaption></figure>
-    <figure class="fig" onclick="lb('charts/samsung_weekly.png')"><img src="charts/samsung_weekly.png" loading="lazy" alt=""><figcaption><b>삼성전자</b> · 주봉 · 고점 −28%</figcaption></figure>
     <figure class="fig" onclick="lb('charts/samsung_daily.png')"><img src="charts/samsung_daily.png" loading="lazy" alt=""><figcaption><b>삼성전자</b> · 일봉 · +3.99%</figcaption></figure>
-    <figure class="fig" onclick="lb('charts/hynix_weekly.png')"><img src="charts/hynix_weekly.png" loading="lazy" alt=""><figcaption><b>SK하이닉스</b> · 주봉 · +1,085% 랠리</figcaption></figure>
+    <figure class="fig" onclick="lb('charts/samsung_weekly.png')"><img src="charts/samsung_weekly.png" loading="lazy" alt=""><figcaption><b>삼성전자</b> · 주봉 · 고점 −28%</figcaption></figure>
     <figure class="fig" onclick="lb('charts/hynix_daily.png')"><img src="charts/hynix_daily.png" loading="lazy" alt=""><figcaption><b>SK하이닉스</b> · 일봉(3개월) · +5.70%</figcaption></figure>
     <figure class="fig" onclick="lb('charts/hynix_daily_wide.png')"><img src="charts/hynix_daily_wide.png" loading="lazy" alt=""><figcaption><b>SK하이닉스</b> · 일봉(6개월) · 2월 저점부터</figcaption></figure>
+    <figure class="fig" onclick="lb('charts/hynix_weekly.png')"><img src="charts/hynix_weekly.png" loading="lazy" alt=""><figcaption><b>SK하이닉스</b> · 주봉 · +1,085% 랠리</figcaption></figure>
     <figure class="fig" onclick="lb('charts/skhy_adr_daily.png')"><img src="charts/skhy_adr_daily.png" loading="lazy" alt=""><figcaption><b>하이닉스 ADR</b> · 일봉 · 7/15 −10.55%</figcaption></figure>
     <figure class="fig" onclick="lb('charts/soxl_daily.png')"><img src="charts/soxl_daily.png" loading="lazy" alt=""><figcaption><b>SOXL</b> · 일봉 · 고점 −46%</figcaption></figure>
   </div>
 </section>
 
-<!-- ============ REQUEST ============ -->
-<section id="request">
-  <h2><span class="tag n">요청</span> 추가하면 좋은 차트 — 다운로드 폴더에 넣어 주세요</h2>
-  <p class="note" style="margin-bottom:14px">같은 앱에서 스크린샷으로 캡처해 다운로드 폴더에 넣어 주시면 v2에 반영. 파일명은 IMG_xxxx 그대로 두셔도 되고, 종목명을 알려 주시면 더 빠르다.</p>
-
-  <div class="req">
-    <h3 style="color:var(--teal)">✅ v2 반영 완료 (7/16)</h3>
-    <ol>
-      <li><b>코스피 일봉</b> → 1부 챕터 ① (나스닥과 나란히)</li>
-      <li><b>삼성전자 일봉·주봉</b> → 챕터 ③ 레버리지 함정 + 갤러리</li>
-      <li><b>SK하이닉스 본주 일봉 2종·주봉</b> → 챕터 ④ + 2부 챕터 ② + 갤러리</li>
-      <li><b>SK하이닉스 ADR (SKHY) 일봉</b> → 챕터 ④ 괴리율의 주인공 자리</li>
-      <li><b>SOXL</b> → 챕터 ③. <span class="why">SOXX 대신 3배 레버리지 버전이 왔는데 오히려 "레버리지 함정" 실물 사례로 더 적합해서 그 자리에 씀 (지수 자체 낙폭은 대략 ÷3으로 짐작). 같은 차트 2장 중 크로스헤어 없는 쪽만 사용.</span></li>
-    </ol>
-  </div>
-  <div class="req">
-    <h3>남은 요청 — 2부 주도주 후보군</h3>
-    <ol>
-      <li><b>TSM (TSMC)</b> — 주봉 <span class="why">· 후보③, 실적 발표 임박</span></li>
-      <li><b>AVGO (브로드컴)</b> — 주봉 <span class="why">· 후보① 커스텀칩 대장</span></li>
-      <li><b>NVDA (엔비디아)</b> — 일봉 <span class="why">· 후보⑤, 중국 매출 재개 변수</span></li>
-      <li><b>IBM</b> — 일봉 <span class="why">· −25% 크래시, 이번 랠리의 방아쇠</span></li>
-      <li><b>MRVL (마벨)</b> — 주봉 <span class="why">· 후보① 2번수</span></li>
-      <li><b>INTC (인텔)</b> — 주봉 <span class="why">· 턴어라운드 후보</span></li>
-      <li><b>LRCX (램리서치)</b> — 주봉 <span class="why">· 후보② 패키징 장비</span></li>
-      <li><b>세레브라스</b> — 상장 후 전체 기간 <span class="why">· 후보⑥. 앱에서 "Cerebras" 검색 (티커 확인 필요)</span></li>
-    </ol>
-  </div>
-</section>
 
 <footer>
   <p>개인 학습·판단 보조용 마켓 리포트 — 어떤 종목에 대한 매수·매도 추천이 아니다.
